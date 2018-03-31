@@ -144,15 +144,6 @@ do
 					disabled = false,
 				},
 
-				showScores = {
-					type = "execute",	order	= 4,
-					name	= name,
-					desc	= desc, 
-					func = function(info, v)
-						core:ShowScores();
-					end,
-				},
-				
 				debugHeader = {
 					name	= "Debugging",
 					order	= 80,
