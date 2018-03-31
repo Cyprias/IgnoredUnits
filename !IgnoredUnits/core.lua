@@ -150,7 +150,7 @@ function core:UpdateIgnoreList()
 		if name then
 			name = self:GetJustName(name);
 			--core:Debug("Ignored name: '" .. tostring(name) .. "'");
-			core.ignoredNames[self:GetJustName(name)] = true
+			core.ignoredNames[name] = true
 		end
 	end
 end
