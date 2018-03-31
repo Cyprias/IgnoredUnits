@@ -44,7 +44,7 @@ do
 	-- to open AceConfigDialog's window.
 	
 		local blizOptions = {
-			name = core.name,
+			name = core.titleFull,
 			type = "group",
 			args = {
 			
@@ -79,7 +79,7 @@ do
 		local blizName = core.title.."bliz"
 		
 		config:RegisterOptionsTable(blizName, blizOptions )
-		coreOpts = dialog:AddToBlizOptions(blizName, core.titleFull)
+		coreOpts = dialog:AddToBlizOptions(blizName, core.title)
 	end
 end
 
