@@ -1,5 +1,4 @@
 <Ui xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
-	<!-- LITE -->
 	<Script file="Ace3\LibStub\LibStub.lua"/>
 	<Include file="Ace3\CallbackHandler-1.0\CallbackHandler-1.0.xml"/>
 	<Include file="Ace3\AceAddon-3.0\AceAddon-3.0.xml"/>
@@ -15,5 +14,4 @@
 	<Include file="Ace3\AceSerializer-3.0\AceSerializer-3.0.xml"/>
 	<Include file="Ace3\AceHook-3.0\AceHook-3.0.xml"/>
 	<Include file="Ace3\AceBucket-3.0\AceBucket-3.0.xml"/>
-	<Include file="lib-st\lib-st.xml"/>
 </Ui>
