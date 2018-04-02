@@ -74,6 +74,7 @@ do
 	UnitInRange = newUnitInRange;
 end
 
+--[[
 do
 	local origUnitIsVisible = UnitIsVisible;
 	local function newUnitIsVisible(...)
@@ -93,7 +94,9 @@ do
 	--hooksecurefunc("UnitIsVisible", newUnitIsVisible)
 	UnitIsVisible = newUnitIsVisible;
 end
+]]
 
+--[[ ]]
 do
 	local origIsSpellInRange = IsSpellInRange;
 	local function newIsSpellInRange(...)
@@ -115,6 +118,8 @@ do
 	IsSpellInRange = newIsSpellInRange;
 end
 
+
+--[[ ]]
 do
 	local origIsItemInRange = IsItemInRange;
 	local function newIsItemInRange(...)
@@ -135,6 +140,7 @@ do
 	--hooksecurefunc("IsItemInRange", newIsItemInRange)
 	IsItemInRange = newIsItemInRange;
 end
+
 
 function core:IgnoreList_Update(...)
 	core:Debug("<IgnoreList_Update>", ...);
