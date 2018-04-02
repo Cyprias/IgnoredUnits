@@ -1,6 +1,6 @@
 ## Interface: 50400
 ## Title: !IgnoredUnits
-## Version: 1.0.180331
+## Version: 1.0.180401
 ## Notes: Block unit data of players on your ignore list.
 ## Author: Cyprias
 ## SavedVariables: IgnoredUnits_DB
